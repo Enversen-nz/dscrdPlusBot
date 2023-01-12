@@ -142,7 +142,7 @@ async def unbanerror(ctx, error):
 
 @bot.slash_command(name = "help", description = "Sends Help!")
 async def help(ctx): 
-    await ctx.respond(f"Here you go {ctx.author.id}, you got help **Well Done** :sunglasses:")
+    await ctx.respond(f"Here you go <@{ctx.author.id}>, you got help **Well Done** :sunglasses:")
 
 
 @bot.slash_command(name = "tag", Description = "does Somthing")
